@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DFEF7CCB-CA77-491B-8940-8EC843F42353</string>
+	<string>1C6F45F4-B575-4EE6-A819-EA6895B5D754</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Stopwatch</string>
+	<string>iStop</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EE2BBC078C8E3A00B091FCA5DB027809D192F802</key>
 		<string>https://github.com/bdulan/iOS-Sample-Applications.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Stopwatch/Stopwatch.xcodeproj</string>
+	<string>iStop/iStop.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EE2BBC078C8E3A00B091FCA5DB027809D192F802</key>
