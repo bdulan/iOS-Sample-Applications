@@ -7,6 +7,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="iStop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
@@ -26,9 +27,9 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Stopwatch" id="2Z5-17-tiM">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="mua-lk-Plp">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="ank-Pp-ov5">
                                             <connections>
-                                                <action selector="stop:" destination="vXZ-lx-hvc" id="ez6-vj-FU9"/>
+                                                <action selector="stopTime:" destination="vXZ-lx-hvc" id="PrL-e4-fC1"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -56,7 +57,11 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lqE-IV-gki">
+                                <rect key="frame" x="0.0" y="556" width="703" height="44"/>
+                            </navigationBar>
                         </subviews>
+                        <color key="backgroundColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstItem="hiN-eg-GdD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="15" id="7Yy-6D-z9H"/>
                             <constraint firstItem="RgX-Sv-5ux" firstAttribute="top" secondItem="XYw-4L-8Mz" secondAttribute="bottom" constant="61" id="87C-bX-mgI"/>
@@ -70,26 +75,13 @@
                             <constraint firstItem="hiN-eg-GdD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="15" id="m6n-WH-ZBF"/>
                         </constraints>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem style="plain" systemItem="play" id="0SV-Yo-lH1">
-                            <connections>
-                                <action selector="play:" destination="vXZ-lx-hvc" id="JMo-ej-YKf"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="sZ4-Ko-skm"/>
-                        <barButtonItem systemItem="pause" id="PCR-dT-EU4">
-                            <connections>
-                                <action selector="pause:" destination="vXZ-lx-hvc" id="dLu-0r-J9N"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="actionTime" destination="XYw-4L-8Mz" id="QgT-4r-57V"/>
                         <outlet property="timeInSecs" destination="RgX-Sv-5ux" id="OQY-2U-S8T"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>

@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         timerSec = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("pauseTime"), userInfo: nil, repeats: true)
     }
     
-    @IBAction func stop(sender: AnyObject) {
-        timerSec = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("stopTime"), userInfo: nil, repeats: true)
+    @IBAction func stopTime(sender: AnyObject) {
+     timerSec = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("stopTime"), userInfo: nil, repeats: true)
     }
     
     override func viewDidLoad() {
