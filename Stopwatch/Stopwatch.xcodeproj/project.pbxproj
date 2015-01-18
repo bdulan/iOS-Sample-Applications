@@ -13,6 +13,7 @@
 		C318CC101A59BD4E00980976 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C318CC0F1A59BD4E00980976 /* Images.xcassets */; };
 		C318CC131A59BD4E00980976 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C318CC111A59BD4E00980976 /* LaunchScreen.xib */; };
 		C318CC1F1A59BD4E00980976 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318CC1E1A59BD4E00980976 /* StopwatchTests.swift */; };
+		C3355CF31A6C31DF00940E85 /* Stopwatch in Resources */ = {isa = PBXBuildFile; fileRef = C3355CF21A6C31DF00940E85 /* Stopwatch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C318CC181A59BD4E00980976 /* StopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C318CC1D1A59BD4E00980976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C318CC1E1A59BD4E00980976 /* StopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTests.swift; sourceTree = "<group>"; };
+		C3355CF21A6C31DF00940E85 /* Stopwatch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Stopwatch; path = "../iOS-Sample-Applications/Stopwatch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		C318CBFA1A59BD4D00980976 = {
 			isa = PBXGroup;
 			children = (
+				C3355CF21A6C31DF00940E85 /* Stopwatch */,
 				C318CC051A59BD4D00980976 /* Stopwatch */,
 				C318CC1B1A59BD4E00980976 /* StopwatchTests */,
 				C318CC041A59BD4D00980976 /* Products */,
@@ -194,6 +197,7 @@
 			files = (
 				C318CC0E1A59BD4E00980976 /* Main.storyboard in Resources */,
 				C318CC131A59BD4E00980976 /* LaunchScreen.xib in Resources */,
+				C3355CF31A6C31DF00940E85 /* Stopwatch in Resources */,
 				C318CC101A59BD4E00980976 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				C318CC241A59BD4E00980976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C318CC251A59BD4E00980976 /* Build configuration list for PBXNativeTarget "StopwatchTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				C318CC271A59BD4E00980976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
